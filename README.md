@@ -1,9 +1,9 @@
-[![Sourcegraph](https://sourcegraph.com/github.com/json-iterator/go/-/badge.svg)](https://sourcegraph.com/github.com/json-iterator/go?badge)
-[![GoDoc](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](https://pkg.go.dev/github.com/json-iterator/go)
-[![Build Status](https://travis-ci.org/json-iterator/go.svg?branch=master)](https://travis-ci.org/json-iterator/go)
-[![codecov](https://codecov.io/gh/json-iterator/go/branch/master/graph/badge.svg)](https://codecov.io/gh/json-iterator/go)
-[![rcard](https://goreportcard.com/badge/github.com/json-iterator/go)](https://goreportcard.com/report/github.com/json-iterator/go)
-[![License](http://img.shields.io/badge/license-mit-blue.svg?style=flat-square)](https://raw.githubusercontent.com/json-iterator/go/master/LICENSE)
+[![Sourcegraph](https://sourcegraph.com/github.com/Hunted-Labs/go/-/badge.svg)](https://sourcegraph.com/github.com/Hunted-Labs/go?badge)
+[![GoDoc](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](https://pkg.go.dev/github.com/Hunted-Labs/go)
+[![Build Status](https://travis-ci.org/Hunted-Labs/go.svg?branch=master)](https://travis-ci.org/Hunted-Labs/go)
+[![codecov](https://codecov.io/gh/Hunted-Labs/go/branch/master/graph/badge.svg)](https://codecov.io/gh/Hunted-Labs/go)
+[![rcard](https://goreportcard.com/badge/github.com/Hunted-Labs/go)](https://goreportcard.com/report/github.com/Hunted-Labs/go)
+[![License](http://img.shields.io/badge/license-mit-blue.svg?style=flat-square)](https://raw.githubusercontent.com/Hunted-Labs/go/master/LICENSE)
 [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/json-iterator/Lobby)
 
 A high-performance 100% compatible drop-in replacement of "encoding/json"
@@ -42,7 +42,7 @@ json.Marshal(&data)
 with
 
 ```go
-import jsoniter "github.com/json-iterator/go"
+import jsoniter "github.com/Hunted-Labs/go"
 
 var json = jsoniter.ConfigCompatibleWithStandardLibrary
 json.Marshal(&data)
@@ -58,7 +58,7 @@ json.Unmarshal(input, &data)
 with
 
 ```go
-import jsoniter "github.com/json-iterator/go"
+import jsoniter "github.com/Hunted-Labs/go"
 
 var json = jsoniter.ConfigCompatibleWithStandardLibrary
 json.Unmarshal(input, &data)
@@ -69,7 +69,7 @@ json.Unmarshal(input, &data)
 # How to get
 
 ```
-go get github.com/json-iterator/go
+go get github.com/Hunted-Labs/go
 ```
 
 # Contribution Welcomed !

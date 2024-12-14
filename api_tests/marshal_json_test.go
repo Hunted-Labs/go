@@ -3,11 +3,11 @@ package test
 import (
 	"bytes"
 	"encoding/json"
-	"github.com/json-iterator/go"
 	"testing"
+
+	jsoniter "github.com/Hunted-Labs/go"
 	"github.com/stretchr/testify/require"
 )
-
 
 type Foo struct {
 	Bar interface{}

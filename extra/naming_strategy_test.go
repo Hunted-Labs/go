@@ -1,9 +1,10 @@
 package extra
 
 import (
-	"github.com/json-iterator/go"
-	"github.com/stretchr/testify/require"
 	"testing"
+
+	jsoniter "github.com/Hunted-Labs/go"
+	"github.com/stretchr/testify/require"
 )
 
 func Test_lower_case_with_underscores(t *testing.T) {

@@ -4,12 +4,13 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"github.com/davecgh/go-spew/spew"
-	"github.com/google/gofuzz"
-	"github.com/json-iterator/go"
 	"reflect"
 	"strings"
 	"testing"
+
+	jsoniter "github.com/Hunted-Labs/go"
+	"github.com/davecgh/go-spew/spew"
+	fuzz "github.com/google/gofuzz"
 )
 
 var testCases []interface{}

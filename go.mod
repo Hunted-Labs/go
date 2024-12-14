@@ -1,4 +1,4 @@
-module github.com/json-iterator/go
+module github.com/Hunted-Labs/go
 
 go 1.12
 
